@@ -81,7 +81,7 @@
 					action: 'shutDown',
 				})
 			}
-			fetch("http://localhost:8000/shutdown", options)
+			fetch("http://localhost:8888/shutdown", options)
 				.then((res) => res.text())
 				.then((text) => console.log(text))
 				.catch(function (error) {
